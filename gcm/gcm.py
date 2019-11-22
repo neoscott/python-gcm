@@ -12,7 +12,7 @@ if version_info.major == 2:
 else:
     from urllib.parse import unquote
 
-GCM_URL = 'https:fcm.googleapis.com/fcm/send'
+GCM_URL = 'https://fcm.googleapis.com/fcm/send/'
 
 
 class GCMException(Exception):
